@@ -1,0 +1,5 @@
+{
+  "name": "job-search",
+  "description": "Searches job boards for postings that match a candidate profile, works for any profession, reads real posting descriptions instead of trusting site filters, drafts cover letters for strong matches, and can run on a daily schedule.",
+  "version": "1.0.0"
+}
