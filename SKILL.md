@@ -95,7 +95,7 @@ the person doesn't want to provide it now)
     industry or region that you wouldn't guess. Note explicitly for each site in the final list
     whether discovery (searching/scraping) is fine or only manual application is fine — some sites'
     terms discourage automated scraping (LinkedIn is the most common example: many candidates prefer
-    discovery OFF, apply-only ON). Ask, don't assume.
+    discovery OFF, apply-only ON). Ask, don't assume. Concrete examples worth proposing for Israeli tech candidates: devjobs.co.il, AllJobs, JobMaster, and Drushim as local boards (search Hebrew and English on these — postings often mix both), plus ATS aggregators that surface roles before they hit the general boards, such as Greenhouse's cross-company search (my.greenhouse.io/jobs — see Step 3b) and Comeet (comeet.com, searched via a web search engine's site: operator since it has no cross-company search of its own).
 18. Is the target job market multilingual? If postings on local sites mix languages (common outside
     English-only markets), ask for the target job titles translated into that language too, so
     searches catch both.
@@ -165,6 +165,15 @@ before starting so its rules are in context while you scan.
   search silently drops good roles you never see.
 - Apply the profile's location filter as a convenience to shrink the list, but treat it as soft — a
   city-specific posting may be remote-friendly, a "remote" tag may hide an on-site requirement.
+
+## Step 3b — Additional ATS discovery source (Greenhouse, useful for tech/software roles)
+
+For software/tech-adjacent target titles, also search the Greenhouse cross-company job board at `my.greenhouse.io/jobs` — many companies post there before (or instead of) syndicating to aggregator boards, so skipping it silently misses real openings. Treat it with the same priority as the profile's other required sites for this kind of search; don't drop it silently for time.
+
+- Plain `?query=...` alone is unreliable for location (it mixes in global remote roles even when a country name is typed into the query text). Use the explicit location filter params instead, confirmed working: `https://my.greenhouse.io/jobs/search?query=<title/skill keywords>&location=<Country>&lat=<lat>&lon=<lon>&location_type=country&country_short_name=<ISO code>` (e.g. for Israel: `location=Israel&lat=30.895128&lon=34.874702&location_type=country&country_short_name=IL`). Run a few queries built from the profile's target titles and core skills.
+- Individual job links returned this way (`my.greenhouse.io/jobs/<company>/<id>`) are real, linkable posting URLs — use them directly as the Source Link, never the search-page URL.
+- Apply the same Pass A/B triage, hard gate, and seniority ceiling to postings found here as to postings from the profile's primary sites.
+- If Greenhouse itself is unreachable or errors out, note that explicitly in the report as a gap, the same way you would for any other required site — don't silently drop it.
 
 ## Step 4 — Triage each result
 
