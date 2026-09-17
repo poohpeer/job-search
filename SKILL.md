@@ -82,20 +82,9 @@ the person doesn't want to provide it now)
     company size, industry to avoid, etc.)?
 
 **Group 5 — Where to search**
-17. Which job boards/sites should be searched? Don't just ask open-ended — first find out the
-    candidate's country/market (already known from Group 2's location answer), then propose a
-    concrete list: well-known general boards for that market (e.g. LinkedIn, Indeed) plus prominent
-    local/regional boards, and — if their target titles suggest a field with its own boards (e.g.
-    healthcare, hospitality, government) — field-specific ones too. Present the list as a checklist
-    (if your interface supports multi-select checkboxes, use that; otherwise list it numbered and ask
-    them to say which to drop) so they can **uncheck/deselect any that aren't relevant to them**,
-    rather than having to type out a list from scratch. Always leave room to **add sites you didn't
-    think of** — ask explicitly "anything else you want searched that isn't on this list?" Don't
-    assume your suggested list is complete; candidates often know niche boards specific to their
-    industry or region that you wouldn't guess. Note explicitly for each site in the final list
-    whether discovery (searching/scraping) is fine or only manual application is fine — some sites'
-    terms discourage automated scraping (LinkedIn is the most common example: many candidates prefer
-    discovery OFF, apply-only ON). Ask, don't assume. Concrete examples worth proposing for Israeli tech candidates: devjobs.co.il, AllJobs, JobMaster, and Drushim as local boards (search Hebrew and English on these — postings often mix both), plus ATS aggregators that surface roles before they hit the general boards, such as Greenhouse's cross-company search (my.greenhouse.io/jobs — see Step 3b) and Comeet (comeet.com, searched via a web search engine's site: operator since it has no cross-company search of its own).
+17. Which job boards/sites should be searched? Don't just ask open-ended, and don't just propose one default list to prune — first find out the candidate's country/market (already known from Group 2's location answer), then compile as full a catalog as you reasonably can of relevant sites: well-known general boards for that market (e.g. LinkedIn, Indeed), prominent local/regional boards, ATS-aggregator search tools (e.g. Greenhouse's cross-company search), and — if their target titles suggest a field with its own boards (e.g. healthcare, hospitality, government) — field-specific ones too.
+Show the candidate this full catalog during onboarding — every site you found, not just a trimmed default — and ask them which ones to actually use (present it as a checklist if your interface supports multi-select checkboxes; otherwise list it numbered and ask them to say which ones to keep). Don't presume any site is wanted just because it's well-known; the candidate picks from the full list rather than opting out of a pre-chosen one. Always leave room to add sites you didn't think of — ask explicitly "anything else you want searched that isn't on this list?" Don't assume your catalog is complete; candidates often know niche boards specific to their industry or region that you wouldn't guess. Note explicitly for each site the candidate picks whether discovery (searching/scraping) is fine or only manual application is fine — some sites' terms discourage automated scraping (LinkedIn is the most common example: many candidates prefer discovery OFF, apply-only ON). Ask, don't assume.
+Concrete examples worth including in the catalog for Israeli tech candidates: devjobs.co.il, AllJobs, JobMaster, and Drushim as local boards (search Hebrew and English on these — postings often mix both); secrethunter.io, an aggregator that pulls postings directly from thousands of Israeli company career pages, including roles never posted to LinkedIn or the big boards; and ATS aggregators that surface roles before they hit the general boards, such as Greenhouse's cross-company search (my.greenhouse.io/jobs — see Step 3b) and Comeet (comeet.com, searched via a web search engine's site: operator since it has no cross-company search of its own).
 18. Is the target job market multilingual? If postings on local sites mix languages (common outside
     English-only markets), ask for the target job titles translated into that language too, so
     searches catch both.
